@@ -41,6 +41,6 @@ We will continue to tweak visual boundaries and update predictions algorithms as
 **2016-02-04** - Project kicked off  
 
 ## Disclaimer & Credits
-These predictions/charts should not be substituted for the OURCs flag, or sensible risk assessments based on current conditions.  We take no liability for the accuracy or reliability of the information or data presented here.
+These charts and predictions should not be used as a substitute for the OURCs flag, or a sensible risk assessments based on current conditions.  We take no liability for the accuracy or reliability of the information or data presented here.
 
-Many thanks to the EA for their data API: *this uses Environment Agency flood and river level data from the real-time data API (Beta)*.
+Many thanks to the EA for their data API: *This uses Environment Agency flood and river level data from the real-time data API (Beta)*.
