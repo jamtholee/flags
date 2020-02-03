@@ -1,6 +1,6 @@
 # Flags
 
-Bringing a little bit of science to the art that is setting the Oxford flags  
+Bringing a little bit of science to the art that is setting the Oxford flags.  
 
 This project is currently maintained by Jameson Lee and Joe Hitchen.
 
