@@ -39,3 +39,8 @@ We will continue to tweak visual boundaries and update predictions algorithms as
 **2019-10-16** - After the server went down; Joe took over hosting and day-to-day maintenance of the project  
 **2018-09-18** - Entire project rewritten (Updated from the joy that is PHP)  
 **2016-02-04** - Project kicked off  
+
+## Disclaimer & Credits
+These predictions/charts should not be substituted for the OURCs flag, and sensible risk assessments based on current conditions.  We take no liability for the accuracy or reliability of the information or data presented here.
+
+Many thanks to the EA for their data API: *this uses Environment Agency flood and river level data from the real-time data API (Beta)*
