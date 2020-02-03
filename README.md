@@ -6,12 +6,13 @@ This project is currently maintained by Jameson Lee and Joe Hitchen.
 
 ## Usage
 
-https://flags.jamesonlee.com/[isis/godstow]/
+https://flags.jamesonlee.com/isis/  
+https://flags.jamesonlee.com/godstow/
 
 ## FAQs
 
 #### How do I interperate the charts? 
-* The "differential", (very) simplified, can be read as the difference between the water levels at the top of the river, and the bottom.  Under perfect flat conditions, you would expect the difference between the height of the water at the top and bottom to be ~0 (it won't be for various reason).  If the differential is large, then you would expect water to be flowing significantly from the top to the bottom.
+* The "differential", (very) simplified, can be read as the difference between the water levels at the top of the river, and the bottom.  Under perfect still stream conditions, you would expect the difference between the height of the water at the top and bottom to be ~0 (it won't be for various reason).  If the differential is large, then you would expect water to be flowing significantly from the top to the bottom.
 
 #### Where do the predictions come from?
 * There's two "predictions" on the chart.  The first is the coloured bands, which come from us having a best guess at how the river levels correlate to the flow conditions.  The second is the predictions in the top right, which come from an artificial neural network that we've trained (and are still training).
@@ -23,16 +24,18 @@ https://flags.jamesonlee.com/[isis/godstow]/
 * More than anything, this is most likely due to sensor noise.  Sometimes, a lock only changes a reading once every hour, but gives us a reading every 15 minutes.  Sometimes the river is so high the sensor saturates.  Basically, the sensor's behaviour is sometimes unpredictable.
 
 #### Is OURCs involved in this project? 
-* Nope.
+* Nope. Both of us have been OURCs Captain of Coxes, and one remains on committee, but this has always been a personal project and there are no plans to change that.
 
 #### I have other questions not answered here
 * Feel free to submit your questions as an [issue](https://github.com/jamtholee/flags/issues/new), and we'll do our best to respond.  You'll need a free Github account to create an issue.  Do bear in mind that both of us are no longer students, so it may take us a while to get back to you!
 
-## Project History & News
-**Project Future** - todo
+
+## Project Roadmap & News
+We are both happy with the current state of the project, and there is no major work planned.  If there is sufficient demand we can start collecting and displaying the data for other stretches of river used (e.g. Radley, Abingdon, Wallingford).  We remain open to other suggestions too - particularly from those able to help implement them.  Again, open an [issue](https://github.com/jamtholee/flags/issues/new) to start the discussion.
+
+We will continue to tweak visual boundaries and update predictions algorithms as we see fit.
   
-**2020-02-xx** - Machine Learning predictions added   
-**2020-02-xx** - Data collection routine rewritten  
-**2019-10-xx** - After the server went down; Joe took over hosting and primary maintenance of the project  
-**2018-09-xx** - Entire project rewritten (Updated from the joy that is PHP)  
-**2016-02-xx** - Project kicked off  
+**2020-02-02** - Machine Learning predictions added   
+**2019-10-16** - After the server went down; Joe took over hosting and day-to-day maintenance of the project  
+**2018-09-18** - Entire project rewritten (Updated from the joy that is PHP)  
+**2016-02-04** - Project kicked off  
