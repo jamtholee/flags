@@ -31,10 +31,11 @@ https://flags.jamesonlee.com/godstow/
 
 
 ## Project Roadmap & News
-We are both happy with the current state of the project, and there is no major work planned.  If there is sufficient demand we can start collecting and displaying the data for other stretches of river used (e.g. Radley, Abingdon, Wallingford).  We remain open to other suggestions too - particularly from those able to help implement them.  Again, open an [issue](https://github.com/jamtholee/flags/issues/new) to start the discussion.
+We are both happy with the current state of the project, and there is no major work planned.  If there is sufficient demand we can start collecting and displaying the data for other rivers.  We remain open to other suggestions too - particularly from those able to help implement them.  Again, open an [issue](https://github.com/jamtholee/flags/issues/new) to start the discussion.
 
 We will continue to tweak visual boundaries and update predictions algorithms as we see fit.
   
+**2020-02-13** - Radley, Abingdon, and Wallingford added  
 **2020-02-02** - Machine Learning predictions added   
 **2019-10-16** - After the server went down; Joe took over hosting and day-to-day maintenance of the project  
 **2018-09-18** - Entire project rewritten (Updated from the joy that is PHP)  
