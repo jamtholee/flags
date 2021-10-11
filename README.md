@@ -24,7 +24,7 @@ https://flags.jamesonlee.com/godstow/
 * More than anything, this is most likely due to sensor noise.  Sometimes, a lock only changes a reading once every hour, but gives us a reading every 15 minutes.  Sometimes the river is so high the sensor saturates.  Basically, the sensor's behaviour is sometimes unpredictable.
 
 #### Is OURCs involved in this project? 
-* Nope. Both of us have been OURCs Captain of Coxes, and one remains on committee, but this has always been a personal project and there are no plans to change that.
+* Nope. Both of us have been OURCs Captain of Coxes, and one is now a senior umpire, but this has always been a personal project and there are no plans to change that.
 
 #### I have other questions not answered here
 * Feel free to submit your questions as an [issue](https://github.com/jamtholee/flags/issues/new), and we'll do our best to respond.  You'll need a free Github account to create an issue.  Do bear in mind that both of us are no longer students, so it may take us a while to get back to you!
