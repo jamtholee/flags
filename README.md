@@ -35,7 +35,7 @@ We are both happy with the current state of the project, and there is no major w
 
 We will continue to tweak visual boundaries and update predictions algorithms as we see fit.
   
-**2021-11-01** - Support for light blue flag added
+**2021-11-01** - Support for light blue flag added  
 **2020-02-13** - Radley, Abingdon, and Wallingford added  
 **2020-02-02** - Machine Learning predictions added   
 **2019-10-16** - After the server went down; Joe took over hosting and day-to-day maintenance of the project  
