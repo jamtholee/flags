@@ -19,13 +19,13 @@ https://flags.jamesonlee.com/godstow/
 
 #### What are the actual calculations?
 * For most of the reaches, the calculation is simply the downstream sensor of the upstream lock minus the upstream sensor of the downstream lock and the relative heights of the zero datums.
-  * Godstow:     $\qquad Godstow Downstream - Osney Upstream - 1.63$
-  * Radley:      $\qquad Sandford Downstream - Abingdon Upstream - 1.30$
-  * Abingdon:    $\quad Abingdon Downstream - Cullham Upstream - 1.52$
-  * Wallingford: $\quad Benson Downstream - Cleeve Upstream - 2.13$
+  * Godstow:     Godstow Downstream - Osney Upstream - 1.63
+  * Radley:      Sandford Downstream - Abingdon Upstream - 1.30
+  * Abingdon:    Abingdon Downstream - Cullham Upstream - 1.52
+  * Wallingford: Benson Downstream - Cleeve Upstream - 2.13
 * For the Isis, the situation is made more complicated by the confluence of the Cherwell, as such we take a weighted sum of the differentials between Iffley, and Osney & Kings Mill, the formula used since the 2018 rewrite is:
-  * $0.71 \times (Osney Downstream - Iffley Upstream - 2.14)$  
-    $+ 0.29 \times (Kings Mill Downstream - Iffley Upstream - 0.73)$
+  0.71 x (Osney Downstream - Iffley Upstream - 2.14)  
+  + 0.29 x (Kings Mill Downstream - Iffley Upstream - 0.73)
 
 #### Did the boundaries change? 
 * The boundaries are our best guess at how much differential corresponds to which flag - we're trying to fine tune this to make it as accurate as possible, based on current and historic data.  We last tweaked the boundaries in 2020, but reserve the right to do so again in future if enough new data comes in to justify a change.  We're also experimenting with using machine learning to predict the flag, which should hopefully be much more accurate (but harder to visualise on a chart).
