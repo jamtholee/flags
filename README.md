@@ -17,8 +17,18 @@ https://flags.jamesonlee.com/godstow/
 #### Where do the predictions come from?
 * There's two "predictions" on the chart.  The first is the coloured bands, which come from us having a best guess at how the river levels correlate to the flow conditions.  The second is the predictions in the top right, which come from an artificial neural network that we've trained (and are still training).
 
-#### Why do the boundaries keep changing? 
-* The boundaries are our best guess at how much differential corresponds to which flag - we're trying to fine tune this (as well as the algorithms) to make it as accurate as possible, based on current and historic data.  We're also experimenting with using machine learning to predict the flag, which should hopefully be much more accurate (but harder to visualise on a chart).
+#### What are the actual calculations?
+* For most of the reaches, the calculation is simply the downstream sensor of the upstream lock minus the upstream sensor of the downstream lock and the relative heights of the zero datums.
+  * Godstow:     $\qquad Godstow Downstream - Osney Upstream - 1.63$
+  * Radley:      $\qquad Sandford Downstream - Abingdon Upstream - 1.30$
+  * Abingdon:    $\quad Abingdon Downstream - Cullham Upstream - 1.52$
+  * Wallingford: $\quad Benson Downstream - Cleeve Upstream - 2.13$
+* For the Isis, the situation is made more complicated by the confluence of the Cherwell, as such we take a weighted sum of the differentials between Iffley, and Osney & Kings Mill, the formula used since the 2018 rewrite is:
+  * $0.71 \times (Osney Downstream - Iffley Upstream - 2.14)$  
+    $+ 0.29 \times (Kings Mill Downstream - Iffley Upstream - 0.73)$
+
+#### Did the boundaries change? 
+* The boundaries are our best guess at how much differential corresponds to which flag - we're trying to fine tune this to make it as accurate as possible, based on current and historic data.  We last tweaked the boundaries in 2020, but reserve the right to do so again in future if enough new data comes in to justify a change.  We're also experimenting with using machine learning to predict the flag, which should hopefully be much more accurate (but harder to visualise on a chart).
 
 #### Why do the data points keep fluctuating/group in 4s/do something else weird? 
 * More than anything, this is most likely due to sensor noise.  Sometimes, a lock only changes a reading once every hour, but gives us a reading every 15 minutes.  Sometimes the river is so high the sensor saturates.  Basically, the sensor's behaviour is sometimes unpredictable.
@@ -34,7 +44,8 @@ https://flags.jamesonlee.com/godstow/
 We are both happy with the current state of the project, and there is no major work planned.  If there is sufficient demand we can start collecting and displaying the data for other rivers.  We remain open to other suggestions too - particularly from those able to help implement them.  Again, open an [issue](https://github.com/jamtholee/flags/issues/new) to start the discussion.
 
 We will continue to tweak visual boundaries and update predictions algorithms as we see fit.
-  
+
+**2024-01-27** - Added a reference point for CORC black flag (0.72m)  
 **2021-11-01** - Support for light blue flag added  
 **2020-02-13** - Radley, Abingdon, and Wallingford added  
 **2020-02-02** - Machine Learning predictions added   
